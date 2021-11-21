@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Ibrahim Khalil</title>
+    </head>
+    <body>
+        <header>
+            <div class="menu">
+                <div class="logo">
+                    <img src="logo.png">
+                    <h3 class="name">Ibrahim Khalil</h3>
+                </div>
+                <ul>
+                    <li class="active"><a href="index.html">About</a></li>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="interests.html">Interests</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="profile">
+            <button id="close-image" type="button" onclick="myFunction()"><img src="profile.jpg"></button>
+        </div>
+        <div class="wall">
+            <h1 id="dyna">Hello!</h1>
+            <p>I'm Ibrahim Khalil, an undergraduate international student from Bangladesh currently studying in China.</p>
+        </div>
+        <script>
+            function myFunction() {
+                body = document.getElementById("dyna").innerHTML;
+                if (body === "Hello!") {
+                    document.getElementById("dyna").innerHTML = "Hi there!";
+                }
+                else {
+                    document.getElementById("dyna").innerHTML = "Hello!";
+                }
+            }
+        </script>
+    </body>
+</html>

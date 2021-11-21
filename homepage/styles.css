@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: #FAE5D3;
+    font-family: Sans-serif;
+}
+.menu ul{
+    float: right;
+    list-style: none;
+    margin: 40px;
+    margin-top: 30px;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 5px 20px;
+    cursor: pointer;
+    color: #424949;
+    border: 1px solid transparent;
+    border-radius: 30px;
+}
+.menu ul li a:hover{
+    background-color: #424949;
+    color: #FDEDEC;
+
+}
+.menu ul .active a{
+    background-color: #424949;
+    color: #FDEDEC;
+}
+.logo img{
+    float: left;
+    width: 30px;
+    margin-top: 26px;
+    margin-left: 40px;
+}
+.menu .logo .name{
+    float: left;
+    font-family: Brush Script MT;
+    margin-top: 26px;
+    margin-left: 25px;
+}
+.profile{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.profile button{
+    background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    box-shadow: 30px 20px 20px rgba(0,0,0,0.3);
+}
+.profile img{
+    width: 180px;
+    border-radius: 50%;
+}
+.wall{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.social-icons{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.social-icons a img{
+    width: 50px;
+    margin: 0 40px;
+}
+.connect{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.desc{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.desc hr{
+    border: 2px solid #424949;
+}
+#team{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
